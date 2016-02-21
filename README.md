@@ -3,4 +3,4 @@ A comparison of various Laravel and Symfony code examples for developers who wor
 
 
 * [Database Examples](Database.md)
-* [Command Line Examples](Command.md)
+* [Command Line Examples](Commands.md)
