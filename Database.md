@@ -14,6 +14,8 @@ or
 // get repository
 $repository = $this->getDoctrine()
     ->getRepository('AppBundle:User');
+
+//return user model
 $user = $repository->find(1);
 ```
 
