@@ -30,7 +30,7 @@ $user = User::find(1);
 Produces the equivalent of:
 
 ```
-select * from {user_table} where id = 1
+select * from {user_table} where id = 1;
 ```
 
 Example: Find all user whose id is 1: (select * from user_table)
@@ -48,4 +48,9 @@ $users = $repository->findAll();
 Laravel
 ```
 $users = Users::all();
+```
+Produces the equivalent of:
+
+```
+select * from {user_table};
 ```
