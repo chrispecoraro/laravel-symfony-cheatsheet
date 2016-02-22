@@ -26,7 +26,7 @@ Finding data:
                 select * from {user_table} where id = 1;
                 ```
 
-* Example: Find all user whose id is 1: (select * from user_table)
+* Example: Find all users: (select * from user_table)
         
   * Symfony (Doctrine)
         ```
